@@ -171,8 +171,8 @@ void setup() {
 
   // start all sensor endpoints with initial readings
   TemperatureSensor.begin(bm_t);
-  PressureSensor.begin(bm_h);
-  HumiditySensor.begin(bm_p / 100.0);
+  HumiditySensor.begin(bm_h);
+  PressureSensor.begin(bm_p / 100.0);
 
   // Matter beginning - Last step, after all EndPoints are initialized
   Matter.begin();
