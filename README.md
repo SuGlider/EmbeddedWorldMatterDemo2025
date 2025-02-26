@@ -1,6 +1,6 @@
 # Embedded World 2025 - Arduino Matter Demo
 
-This 4 applications are designed for the ESP32-C5 using 5GHz WiFi Matter.
+These 3 applications are designed for the ESP32-C5 using 5GHz WiFi Matter.
 
 It is based on the ESP32 Arduino Matter Library that can be found at
 https://github.com/espressif/arduino-esp32/tree/master/libraries/Matter
