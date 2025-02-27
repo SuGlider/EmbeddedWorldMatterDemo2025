@@ -55,11 +55,11 @@ bool button_state = false;                     // false = released | true = pres
 const uint32_t decommissioningTimeout = 5000;  // keep the button pressed for 5s, or longer, to decommission
 
 // set your M5Stack RGB LED Unit Light pin (3 Leds)
-#define LIGHT_PIN  (0)   // Use 0, 3, 5, 6 (M5Stack OUT Pin)
+#define LIGHT_PIN  (3)   // Use 0, 3, 5, 6 (M5Stack OUT Pin)
 #define NUM_PIXELS (3)   // M5Stack RGB_SK_6812 has 3 LEDs
-
+ 
 // PWM Controlled LED pin from M5Stack FlashLight
-const uint8_t whiteLEDPin = 3; // Use 0, 3, 5, 6 (M5Stack OUT Pin)
+const uint8_t whiteLEDPin = 5; // Use 0, 3, 5, 6 (M5Stack OUT Pin)
 
 #include <Matter.h>
 #include <WiFi.h>
