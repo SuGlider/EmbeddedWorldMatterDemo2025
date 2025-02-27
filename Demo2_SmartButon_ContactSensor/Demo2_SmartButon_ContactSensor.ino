@@ -53,8 +53,8 @@ uint32_t button_time_stamp = 0;                // debouncing control
 bool button_state = false;                     // false = released | true = pressed
 const uint32_t decommissioningTimeout = 5000;  // keep the button pressed for 5s, or longer, to decommission
 
-const uint8_t keyPin = 1;    // M5Stack grove IN  pin = 1, 2, 4 and 7
-const uint8_t LEDkeyPin = 0; // M5Stack grove OUT pin = 0, 3, 5 and 6
+const uint8_t keyPin = 2;    // M5Stack grove IN  pin = 1, 2, 4 and 7
+const uint8_t LEDkeyPin = 3; // M5Stack grove OUT pin = 0, 3, 5 and 6
 const uint8_t reedPin = 4;   // M5Stack grove IN  pin = 1, 2, 4 and 7
 
 #include <Matter.h>
